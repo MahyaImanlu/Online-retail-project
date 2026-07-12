@@ -27,14 +27,16 @@ https://www.kaggle.com/datasets/stealthtechnologies/employee-attrition-dataset
 
  The overall attrition rate is high at 48%, driven by a combination of job-related and personal factors.
  
-1. Job Factors
+1. Job-related Factors:
+
 The Technology department has the highest attrition count, while the Education department has the highest attrition rate.
 As expected, employees with lower salaries show the highest attrition rate.
 Overtime has a direct impact on attrition — employees who work overtime leave at significantly higher rates.
 Among the four work-life balance groups (Poor, Fair, Good, Excellent), employees with poor work-life balance show the highest attrition.
 Employees with less than 7 years of experience (Junior and Mid-level) leave at much higher rates than Senior and Executive employees, likely due to lower loyalty and weaker ties to the company at early career stages.
 
-2. Personal Factors
+2. Personal Factors:
+
 Across all age groups, female employees show a higher attrition rate than male employees — 53% vs. 43%, a notable gap.
 Single employees show the highest attrition rate, and most of them are younger. Likely because they have fewer responsibilities, more career mobility, and more external opportunities compared to married or older employees.
 Distance from work also affects attrition — as expected, employees who live farther from work show a higher attrition rate.
