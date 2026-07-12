@@ -1,9 +1,9 @@
-# 📊 Online-retail-project
-This project analyses online retail dataset using python, sql and powerbi.
+# 📊 HR Analytics project
+This project analyses Employee Attrition dataset using python, sql and powerbi.
 
 ## Dataset
-Download online_retail.csv from kaggle then place it in the python folder: 
-https://www.kaggle.com/datasets/ulrikthygepedersen/online-retail-dataset/data?select=online_retail.csv
+Download train.csv from kaggle then place it in the python folder: 
+https://www.kaggle.com/datasets/stealthtechnologies/employee-attrition-dataset
 
 ## 🚀 Tools Used 
 - Python
@@ -13,50 +13,48 @@ https://www.kaggle.com/datasets/ulrikthygepedersen/online-retail-dataset/data?se
 ## 📂 Project Structure
 - Python : main analyses file
 - SQL : sql queries
-- Power BI : visualizations
-- Screenshots: screenshots of visualizations from PowerBI
+- Power BI : visualizations + screenshots
 
 ## 📊 Analysis 
-- Total revenue by month-year
-- Count of customers, total revenue and total orders by customer segment
-- Top 10 customers
-- Revenue, quantity and product trends for top 10 products
-- Top 5 products by country
-- Sum of TotalPrice by Country and Description
+- Stayed vs Left employees
+- Attrition count for each Job Role
+- Attrition Rate by Job Role, Overtime, Work-life balance, experience
+- Attrition Rate for each salary level
+- Employee count for each salary level
+- Attrition Rate by age segmentaion, gender, marital status, distance from home, education level and remote work
 
 ## 📈 Insights
 
-November 2011 generated the highest revenue, reaching $1,156,205.61.
-38.36% of total revenue comes from high-value customers who spent more than $1,000.
-A total of 1,664 customers were identified as high-value customers, purchasing 13,641 products.
-The United Kingdom is the top-performing country with 3,920 customers and 18,019 orders.
-The top-performing product is DOTCOM POSTAGE, which generates high revenue despite lower sales volume, indicating that it behaves like a luxury product.
+ The overall attrition rate is high at 48%, driven by a combination of job-related and personal factors.
+ 
+1. Job Factors
+The Technology department has the highest attrition count, while the Education department has the highest attrition rate.
+As expected, employees with lower salaries show the highest attrition rate.
+Overtime has a direct impact on attrition — employees who work overtime leave at significantly higher rates.
+Among the four work-life balance groups (Poor, Fair, Good, Excellent), employees with poor work-life balance show the highest attrition.
+Employees with less than 7 years of experience (Junior and Mid-level) leave at much higher rates than Senior and Executive employees, likely due to lower loyalty and weaker ties to the company at early career stages.
 
-
-After analyzing product revenue and sales quantity, the following patterns were identified:
-		High Revenue  + Low Quantity = Luxury product
-		High Revenue + High Quantity = Star product 
-		Low Revenue + High Quantity = Cheap product
+2. Personal Factors
+Across all age groups, female employees show a higher attrition rate than male employees — 53% vs. 43%, a notable gap.
+Single employees show the highest attrition rate, and most of them are younger. Likely because they have fewer responsibilities, more career mobility, and more external opportunities compared to married or older employees.
+Distance from work also affects attrition — as expected, employees who live farther from work show a higher attrition rate.
+Education level shows a clear pattern too: employees with a PhD have the lowest attrition rate at just 25%, while all other education levels (High School, Associate, Bachelor's, Master's) cluster around 48–49% a significant gap that stands out from the rest.
+Remote work also has a significant impact on attrition. Remote  employees show a much lower attrition rate (25%) compared to  non-remote employees (53%), despite remote workers making up a  small portion of the workforce.
 
 
 
 Recommendations:
 
-The UK generates the highest revenue and shows strong demand for the top-selling product (DOTCOM POSTAGE).
-Increasing inventory availability and optimizing operational efficiency for this product may help drive additional sales growth.
-
-Star products with both high revenue and high sales volume should be prioritized in inventory planning and promotional campaigns.
-
-High-value customers should be targeted through loyalty programs and personalized marketing strategies to improve customer retention.
-
+Design retention programs for early-career employees (0–7 years),  such as mentorship or career growth plans, to build loyalty earlier.
+- Expand remote work opportunities: remote employees show a  significantly lower attrition rate (25%) compared to non-remote employees (53%), yet only a small share of the workforce currently  works remotely. Increasing remote options could be an effective retention lever.
 
 
 
 ## ▶️ How to Run
-- Download the project files : download main.py from python folder and online_retail_analysis.sql from sql folder.
+- Download the project files : download main.py from Python folder and HR analysis.sql from SQL folder.
 - Prepare the dataset: Download the dataset and place it in the project directory.
 - Run python file and SQl queries to process and transform the data.
-- For running python file with no error install dependencies : pip install pandas numpy sqlalchemy pymysql
+- For running python file with no error install dependencies : pip install pandas, sqlalchemy, pymysql
 - Load data into PowerBI: Import the processed data from SQL into Power BI and finally load the data for visualization and analysis.
 
 ## 👨‍💻 Author
