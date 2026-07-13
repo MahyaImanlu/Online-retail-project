@@ -3,6 +3,7 @@ This project analyses online retail dataset using python, sql and powerbi.
 
 ## Dataset
 Download online_retail.csv from kaggle then place it in the python folder: 
+
 https://www.kaggle.com/datasets/ulrikthygepedersen/online-retail-dataset/data?select=online_retail.csv
 
 ## 🚀 Tools Used 
