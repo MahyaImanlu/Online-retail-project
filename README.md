@@ -35,7 +35,9 @@ https://www.kaggle.com/datasets/ulrikthygepedersen/online-retail-dataset/data?se
 - After analyzing product revenue and sales quantity, the following patterns were identified:
   
 		 High Revenue + Low Quantity = Luxury product
-		 High Revenue + High Quantity = Star product 
+  
+		 High Revenue + High Quantity = Star product
+   
 		 Low Revenue + High Quantity = Cheap product
 
 Recommendations:
