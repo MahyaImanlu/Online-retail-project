@@ -33,7 +33,8 @@ https://www.kaggle.com/datasets/ulrikthygepedersen/online-retail-dataset/data?se
 - The United Kingdom is the top-performing country with 3,920 customers and 18,019 orders.
 - The top-performing product is DOTCOM POSTAGE, which generates high revenue despite lower sales volume, indicating that it behaves like a luxury product.
 - After analyzing product revenue and sales quantity, the following patterns were identified:
-		 High Revenue  + Low Quantity = Luxury product
+  
+		 High Revenue + Low Quantity = Luxury product
 		 High Revenue + High Quantity = Star product 
 		 Low Revenue + High Quantity = Cheap product
 
